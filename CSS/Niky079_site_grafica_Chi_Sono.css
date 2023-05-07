@@ -62,7 +62,7 @@ body{
   #Chi_sono header h1{
     font-family: 'Lobster';
     color: white;
-    font-size:80  px;
+    font-size:80px;
     text-align: center;
     margin-bottom:2px;
     margin-top:2px;
@@ -75,7 +75,6 @@ body{
   #Chi_sono p{
     font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
-    font-weight: 400px;
     color:#FFFFFF;
     -webkit-text-stroke: 1px grey;
   }
