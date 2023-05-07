@@ -1,0 +1,18 @@
+#nav nav ul li a{
+  font-size: 20px;
+}
+
+#nav header a img{
+    margin-left: 0px;
+    width: 65px;
+    height: 65px;
+  }
+
+#Title img{
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+#Finale footer a {
+  margin-left: 80px;
+}

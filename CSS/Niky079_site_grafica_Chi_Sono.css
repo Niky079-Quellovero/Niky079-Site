@@ -1,0 +1,107 @@
+body{
+  background-image: url("../Imgs/BM.jpg");
+}
+
+#nav{
+    margin-top: 10px;
+    background-color:black;
+    border-radius: 25px;
+}
+
+#nav nav ul{
+  margin-top: 20px;
+}
+
+#nav nav ul li{
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+}
+
+#riga1 header img{
+    margin-left: 150px;
+  }
+
+  #nav nav ul li a{
+    font-family: 'Changa One', cursive;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-right: 25px;
+    margin-top: 40px;
+  }
+
+
+  #nav nav ul li a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  #nav nav ul li a:hover {
+    color: #FFFFFF;
+  }
+
+  #nav header img{
+    margin-top: 0px;
+    margin-left: 150px;
+  }
+
+  #Chi_sono header{
+    background-color: black;
+    border-radius: 25px;
+    margin-top: 10px;
+  }
+
+  #Chi_sono header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #ffa500;
+    height:800px;
+    margin-left:0px;
+  }
+
+  #Chi_sono header h1{
+    font-family: 'Lobster';
+    color: white;
+    font-size:80  px;
+    text-align: center;
+    margin-bottom:2px;
+    margin-top:2px;
+  }
+
+  #Chi_sono header h1::selection {
+    color: White;opacity:0.0;
+  }
+
+  #Chi_sono p{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: 400px;
+    color:#FFFFFF;
+    -webkit-text-stroke: 1px grey;
+  }
+
+  #Chi_sono img{
+    margin-left: 415px;
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    outline: solid;
+    outline-color: white;
+  }
+
+  #Finale footer p {
+    font-family: 'Kanit', sans-serif;
+    font-size:20px;
+    color:#b102f7;
+    text-align: center;
+    margin-bottom: 5px;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+
+  #Finale footer a {
+    font-family: 'Kanit', sans-serif;
+    font-size:15px;
+    color:#b102f7;
+    margin-left: 480px;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }

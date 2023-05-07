@@ -1,0 +1,130 @@
+body{
+  background-image: url("../Imgs/BM.jpg");
+}
+
+#nav{
+    margin-top: 10px;
+    background-color:black;
+    border-radius: 25px;
+}
+
+#nav nav ul{
+  margin-top: 20px;
+}
+
+#nav nav ul li{
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+}
+
+#riga1 header img{
+    margin-left: 150px;
+  }
+
+  #nav nav ul li a{
+    font-family: 'Changa One', cursive;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-right: 25px;
+    margin-top: 40px;
+  }
+
+
+  #nav nav ul li a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  #nav nav ul li a:hover {
+    color: #FFFFFF;
+  }
+
+  #nav header img{
+    margin-top: 0px;
+    margin-left: 150px;
+  }
+
+  #nav header img{
+    margin-top: 0;
+    margin-left: 150;
+  }
+
+  #Title header{
+    background-color: #000000;
+    border-radius: 25px;
+    outline: solid;
+    outline-color: #FFFFFF;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #ffa500;
+    height:600px;
+    margin-left:0px;
+  }
+
+  #Title header h1{
+    font-family: 'Lobster';
+    color: white;
+    font-size:50px;
+    text-align: center;
+    margin-bottom:2px;
+    margin-top:2px;
+  }
+
+  #Title header h1::selection {
+    color: rgb(0, 247, 255);opacity:0.0;
+  }
+
+  #Title p{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 400px;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+
+  #Title img{
+    margin-left: 75px;
+    margin-top: 20px;
+  }
+
+  #Instagram p{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color:#ff508a;
+  }
+
+  #Telegram p{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #2AABEE;
+  }
+
+  #Discord p{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #5865F2;
+  }
+
+  #Twitch p{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    color: #9146FF;
+  }
+
+  #Finale footer p {
+    font-family: 'Kanit', sans-serif;
+    font-size:20px;
+    color:#b102f7;
+    text-align: center;
+    margin-bottom: 5px;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+
+  #Finale footer a {
+    font-family: 'Kanit', sans-serif;
+    font-size:15px;
+    color:#b102f7;
+    margin-left: 480px;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }

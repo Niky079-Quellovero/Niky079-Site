@@ -1,0 +1,155 @@
+html, body { height: 100% }
+.mainMenu { margin-bottom: 10px; }
+
+body{
+  background-image: url("../Imgs/BM.jpg");
+}
+
+#nav{
+    margin-top: 10px;
+    background-color:black;
+    border-radius: 25px;
+}
+
+#nav nav ul{
+  margin-top: 20px;
+}
+
+#nav nav ul li{
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+}
+
+#riga1 header img{
+    margin-left: 150px;
+  }
+
+  #nav nav ul li a{
+    font-family: 'Changa One', cursive;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-right: 25px;
+    margin-top: 40px;
+  }
+
+
+  #nav nav ul li a:link {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+
+  #nav nav ul li a:hover {
+    color: #FFFFFF;
+  }
+
+  #nav header img{
+    margin-top: 0px;
+    margin-left: 150px;
+  }
+
+  #Title header{
+    background-color: #c0c2c0;
+    border-radius: 25px;
+    margin-top: 10px;
+  }
+
+  #Title header h1{
+    font-family: 'Josefin Sans';
+    color: white;
+    font-size:100px;
+    margin-left: 30px;
+    text-align: center;
+    -webkit-text-stroke: 3px #000000;
+  }
+
+  #video h2{
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size:80px;
+    margin-left: 30px;
+    text-align: center;
+    -webkit-text-stroke: 1px #FF0000;
+  }
+
+  #video{
+    text-align:center;
+    background-color: #383838;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  div.sub, iframe {
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    background-color: orange;
+    border-radius: 25px;
+    padding-top:0px;
+  }
+
+  #video button {
+    border: none;
+    color: white;
+    padding: 36px 180px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family:'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: black;
+    border: 2px solid #FF0000;
+    border-radius: 25px;
+  }
+
+  #video p img{
+    margin-bottom: 20px;
+  }
+
+  #video button:hover {
+    background-color:#FF0000;
+    color: white;
+  }
+
+  #Video h2::selection {
+    color: white;opacity:0.0;
+  }
+
+  .scrollFade {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .scrollFade--hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  .scrollFade--visible {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .scrollFade--animate {
+    transition: opacity 0.4s ease-in-out;
+  }
+
+  #Finale footer p {
+    font-family: 'Kanit', sans-serif;
+    font-size:20px;
+    color:#b102f7;
+    text-align: center;
+    margin-bottom: 5px;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }
+
+  #Finale footer a {
+    font-family: 'Kanit', sans-serif;
+    font-size:15px;
+    color:#b102f7;
+    margin-left: 480px;
+    -webkit-text-stroke: 0.5px #FFFFFF;
+  }

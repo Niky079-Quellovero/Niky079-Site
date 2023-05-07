@@ -1,0 +1,35 @@
+#nav nav ul li a{
+  font-size: 20px;
+}
+
+#nav header a img{
+    margin-left: 0px;
+    width: 65px;
+    height: 65px;
+  }
+
+
+  #Title header{
+    background-color: #c0c2c0;
+    border-radius: 25px;
+    margin-top: 10px;
+  }
+
+#Title header h1{
+   font-size:50px;
+   margin-left: 10px;
+  }
+
+
+div.sub, iframe {
+   width: 400px;
+   height: 300px;
+  }
+
+  #video button {
+    padding: 20px 120px;
+  }
+
+  #Finale footer a {
+    margin-left: 80px;
+  }  
