@@ -25,26 +25,45 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!--Script-->
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
     <section class="container">
-        <section class="row" id="nav">
+        <section class="row header" id="nav">
+            <div class="header_Content">
+                <!--logo-->
+                <header class="col-md-4 col-xs-3 animate__fadeInTopLeft">
+                <p class="animate__animated animate__fadeInDown img-fluid"><a href="index.html"><img src="Imgs/Logo_piccolo.jpg" alt="logo" class="img-responsive"/></a>
+                </header>
 
-            <!--logo-->
-            <header class="col-md-4 col-xs-4 animate__fadeInTopLeft">
-            <p class="animate__animated animate__fadeInDown"><a href="index.html"><img src="Imgs/Logo_piccolo.jpg" alt="logo" class="img-responsive"/></a>
-            </header>
-
-            <!--navbar-->
-            <nav class="col-md-8 col-xs-8">
-                <ul>
-                    <li class="animate__animated animate__fadeInDown"><a href="index.html">Home</a></li>
-                    <li class="animate__animated animate__fadeInDown"><a href="Chi_sono.html">Chi Sono</a></li>
-                    <li class="animate__animated animate__fadeInDown"><a href="Social.html">Social</a></li>
-                    <li class="animate__animated animate__fadeInDown"><a href="Contatti.html">Contatti</a></li>
-                </ul>
-            </nav>
+                <!--navbar-->
+                <nav class="col-md-8 col-xs-7 header_menu">
+                    <ul>
+                      <li class="animate__animated animate__fadeInDown"><a href="index.html">Home</a></li>
+                      <li class="animate__animated animate__fadeInDown"><a href="Chi_sono.html">Chi Sono</a></li>
+                      <li class="animate__animated animate__fadeInDown"><a href="Social.html">Social</a></li>
+                      <li class="animate__animated animate__fadeInDown"><a href="Contatti.html">Contatti</a></li>
+                 </ul>
+                 </nav>
+                
+                 <!--navbar phone-->
+                 <div class="col-xs-2 icon-hamburger">
+                    <span></span>
+                    <span></span>
+                 </div>
+                    <script>
+                    let item = document.querySelector('.icon-hamburger');
+                    item.addEventListener("click", function() {
+                    document.body.classList.toggle('menu-open');
+                    })
+                    </script> 
+            </div>
         </section>
 
             <!--Titolo iniziale-->
@@ -53,15 +72,15 @@
                 <h1 class="animate__animated animate__bounceInLeft">Vuoi Contattarmi?</h1>
                 <p>Ci sono vari modi per contattarmi... Ecco quali:</p>
                 <ul class="animate__animated animate__backInDown">
-                    <a href="https://www.instagram.com/niky079/" id="Instagram"><li><strong> Direct di Instagram </strong></li></a>
-                    <a href="https://bit.ly/3nsS09I" id="Telegram"><li><strong> Gruppo Telegram </strong></li></a>
-                    <a href="https://www.youtube.com/@Niky079" id="YouTube"><li><strong> Commento di YouTube </strong></li></a>
-                    <a href="https://www.twitch.tv/niky079" id="Twitch"> <li><strong> In live su Twitch </strong></li></a>
-                    <a href="https://bit.ly/3NpZKJS" id="Discord"> <li><strong> Sul Canale Discord </strong></li></a>
+                    <li><a href="https://www.instagram.com/niky079/" id="Instagram"><strong> Direct di Instagram </strong></a></li>
+                    <li><a href="https://bit.ly/3nsS09I" id="Telegram"><strong> Gruppo Telegram </strong></a></li>
+                    <li><a href="https://www.youtube.com/@Niky079" id="YouTube"><strong> Commento di YouTube </strong></a></li>
+                    <li><a href="https://www.twitch.tv/niky079" id="Twitch"><strong> In live su Twitch </strong></a></li>
+                    <li><a href="https://bit.ly/3NpZKJS" id="Discord"><strong> Sul Canale Discord </strong></a></li>
                 </ul>
                </header>
             </article>
-               <article class="row" id="Title">
+               <article class="row" id="TitleL">
                 <header class="col-md-12 col-xs-12" id="Commercial">
                  <h1 class="animate__animated animate__bounceInLeft">E per Richieste Commerciali?</h1>
                  <p class="animate__animated animate__backInDown"><strong>SOLO PER LE RICHIESTE COMMERCIALI</strong> potete contattarmi alla mail: <a href="mailto://emailcommercialeniky079@gmail.com">emailcommercialeniky079@gmail.com</a></p>

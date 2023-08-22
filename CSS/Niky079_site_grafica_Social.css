@@ -23,13 +23,12 @@ body{
   }
 
   #nav nav ul li a{
-    font-family: 'Changa One', cursive;
-    font-size: 40px;
+    font-family: 'ADLaM Display';
+    font-size: 35px;
     color: #FFFFFF;
     margin-right: 25px;
-    margin-top: 40px;
+    margin-top: 80px;
   }
-
 
   #nav nav ul li a:link {
     color: #FFFFFF;

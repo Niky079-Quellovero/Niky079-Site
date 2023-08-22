@@ -1,11 +1,73 @@
 #nav nav ul li a{
-  font-size: 20px;
+  font-size: 25px;
+  margin-top: 80px;
+  text-align: center;
+}
+
+#nav {
+  padding: 0px;
+}
+
+#nav nav ul{
+  padding: 0px;
 }
 
 #nav header a img{
-    margin-left: 0px;
+    margin: 0px;
     width: 65px;
     height: 65px;
+    padding: 0px;
+  }
+
+  .header_menu{
+    background-color: black;
+    z-index:9998;
+    height: 0vh;
+    overflow: hidden;
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+  }
+
+  .img-fluid {
+    width: 150px;
+    height: auto;
+  }
+
+  .icon-hamburger {
+    width: 50px;
+    padding-top: 30px;
+    margin-right: 0px;
+    visibility: visible;
+  }
+
+  .icon-hamburger span{
+    height: 3px;
+    width: 30px;
+    background: grey;
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    transition: all 0.2s cubic-bezier(.215, .61, .355, 1);
+  }
+
+  .menu-open .icon-hamburger span:nth-child(1){
+    transform: rotate(45deg) translateY(9px);
+  }
+
+  .menu-open .icon-hamburger span:nth-child(2){
+    transform: rotate(-45deg) translateY(-9px);
+  }
+
+  .header_menu li a {
+  width: 100%; 
+  display: list-item;
+  text-align: left;
+  border-bottom: 1px white solid;
+  }
+
+  .menu-open .header_menu{
+    height: 100vh;
+    padding: 3%;
+    
   }
 
 #Title p{

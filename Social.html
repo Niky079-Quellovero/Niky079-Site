@@ -13,7 +13,7 @@
     <link rel="stylesheet" media="screen" href="CSS/Niky079_site_grafica_Social.css"/>
     <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!--Bootstrap-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 user-scalable=nos"/>
     <link rel= "stylesheet" media="screen and (max-width:767px)" href="CSS/index_mobile_Social.css"/>
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,47 +25,64 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"></script>
 </head>
 
-<body>
-    <section class="container">
-        <section class="row" id="nav">
-
+<section class="container">
+    <section class="row header" id="nav">
+        <div class="header_Content">
             <!--logo-->
-            <header class="col-md-4 col-xs-4 animate__fadeInTopLeft">
-            <p class="animate__animated animate__fadeInDown"><a href="index.html"><img src="Imgs/Logo_piccolo.jpg" alt="logo" class="img-responsive"/></a>
+            <header class="col-md-4 col-xs-3 animate__fadeInTopLeft">
+            <p class="animate__animated animate__fadeInDown img-fluid"><a href="index.html"><img src="Imgs/Logo_piccolo.jpg" alt="logo" class="img-responsive"/></a>
             </header>
 
             <!--navbar-->
-            <nav class="col-md-8 col-xs-8">
+            <nav class="col-md-8 col-xs-7 header_menu">
                 <ul>
-                    <li class="animate__animated animate__fadeInDown"><a href="index.html">Home</a></li>
-                    <li class="animate__animated animate__fadeInDown"><a href="Chi_sono.html">Chi Sono</a></li>
-                    <li class="animate__animated animate__fadeInDown"><a href="Social.html">Social</a></li>
-                    <li class="animate__animated animate__fadeInDown"><a href="Contatti.html">Contatti</a></li>
-                </ul>
-            </nav>
-        </section>
+                  <li class="animate__animated animate__fadeInDown"><a href="index.html">Home</a></li>
+                  <li class="animate__animated animate__fadeInDown"><a href="Chi_sono.html">Chi Sono</a></li>
+                  <li class="animate__animated animate__fadeInDown"><a href="Social.html">Social</a></li>
+                  <li class="animate__animated animate__fadeInDown"><a href="Contatti.html">Contatti</a></li>
+             </ul>
+             </nav>
+            
+             <!--navbar phone-->
+             <div class="col-xs-2 icon-hamburger">
+                <span></span>
+                <span></span>
+             </div>
+                <script>
+                let item = document.querySelector('.icon-hamburger');
+                item.addEventListener("click", function() {
+                document.body.classList.toggle('menu-open');
+                })
+                </script> 
+        </div>
+    </section>
 
             <!--Titolo iniziale-->
             <article class="row" id="Title">
-               <a href="https://www.instagram.com/niky079/"><header class="col-md-3" id="Instagram">
+               <a href="https://www.instagram.com/niky079/"><header class="col-md-3 col-xs-12" id="Instagram">
                 <h1 class="animate__animated animate__bounceInLeft">Instagram</h1>
                 <img src="Imgs/Instagram.png" alt="Instagram"/>
                 <p>Se vuoi stalkerarmi, entrando nella mia vita privata vieni su Instagram! Lì, oltre ad aggiornamenti (come le live) e promozioni al canale, potrai vedere annche cose esterne a YouTube!</p>
                </header></a>
-                <a href="https://bit.ly/3nsS09I"><header class="col-md-3" id="Telegram">
+                <a href="https://bit.ly/3nsS09I"><header class="col-md-3 col-xs-12" id="Telegram">
                 <h1 class="animate__animated animate__bounceInRight">Telegram</h1>
                 <img src="Imgs/Telegram.png" alt="Telegram"/>
                 <p>Vuoi parlare con me e con persone che mi seguono? Beh, allora il mio gruppo Telegram fa per te! Parliamo si di tecnlogia e Gaming, ma non solo! Entra a farne parte anche tu!</p>
                </header></a>
-                <a href="https://bit.ly/3NpZKJS"><header class="col-md-3" id="Discord">
+                <a href="https://bit.ly/3NpZKJS"><header class="col-md-3 col-xs-12" id="Discord">
                 <h1 class="animate__animated animate__bounceInUp">Discord</h1>
                 <img src="Imgs/Discord.png" alt="Discord"/>
                 <p>Hai le dita stanche e non vuoi scrivere su Telegram? Beh, allora vieni a parlare su Discord con me! Dove potrai anche partecipare alle live giocando e parlando con me!</p>
                </header></a>
-                <a href="https://www.twitch.tv/niky079"><header class="col-md-3" id="Twitch">
-                <h1 class="animate__animated animate__bounceInDown">Twitch</h1>
+                <a href="https://www.twitch.tv/niky079"><header class="col-md-3 col-xs-12" id="Twitch">
+                <h1 class="animate__animated animate__bounceIn">Twitch</h1>
                 <img src="Imgs/Twitch.png" alt="Twitch"/>
                 <p>Se non hai nulla da fare, puoi venire da me in live sul Twitch. Un posto dove ci possiamo divertire tutti insieme e dove voi potete interagire direttamente con me! CHE ASPETTI? Vieni in live a farmi compagnia!</p>
                </header></a>

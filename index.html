@@ -13,7 +13,7 @@
     <link rel="stylesheet" media="screen" href="CSS/Niky079_site_grafica.css"/>
     <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <!--Bootstrap-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes"/>
     <link rel= "stylesheet" media="screen and (max-width:767px)" href="CSS/index_mobile.css"/>
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,36 +24,55 @@
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
     <link href= "https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!--Script-->
+    <script
+    src="https://code.jquery.com/jquery-3.7.0.min.js"
+    integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+    crossorigin="anonymous"></script>
 </head>
 
 <body>
     <section class="container">
-        <section class="row" id="nav">
+        <section class="row header" id="nav">
+            <div class="header_Content">
+                <!--logo-->
+                <header class="col-md-4 col-xs-3 animate__fadeInTopLeft">
+                <p class="animate__animated animate__fadeInDown img-fluid"><a href="index.html"><img src="Imgs/Logo_piccolo.jpg" alt="logo" class="img-responsive"/></a>
+                </header>
 
-            <!--logo-->
-            <header class="col-md-4 col-xs-4 animate__fadeInTopLeft">
-            <p class="animate__animated animate__fadeInDown"><a href="index.html"><img src="Imgs/Logo_piccolo.jpg" alt="logo" class="img-responsive"/></a>
-            </header>
-
-            <!--navbar-->
-            <nav class="col-md-8 col-xs-8">
-                <ul>
-                    <li class="animate__animated animate__fadeInDown"><a href="index.html">Home</a></li>
-                    <li class="animate__animated animate__fadeInDown"><a href="Chi_sono.html">Chi Sono</a></li>
-                    <li class="animate__animated animate__fadeInDown"><a href="Social.html">Social</a></li>
-                    <li class="animate__animated animate__fadeInDown"><a href="Contatti.html">Contatti</a></li>
-                </ul>
-            </nav>
+                <!--navbar-->
+                <nav class="col-md-8 col-xs-7 header_menu">
+                    <ul>
+                      <li class="animate__animated animate__fadeInDown"><a href="index.html">Home</a></li>
+                      <li class="animate__animated animate__fadeInDown"><a href="Chi_sono.html">Chi Sono</a></li>
+                      <li class="animate__animated animate__fadeInDown"><a href="Social.html">Social</a></li>
+                      <li class="animate__animated animate__fadeInDown"><a href="Contatti.html">Contatti</a></li>
+                 </ul>
+                 </nav>
+                
+                 <!--navbar phone-->
+                 <div class="col-xs-2 icon-hamburger">
+                    <span></span>
+                    <span></span>
+                 </div>
+                    <script>
+                    let item = document.querySelector('.icon-hamburger');
+                    item.addEventListener("click", function() {
+                    document.body.classList.toggle('menu-open');
+                    })
+                    </script> 
+            </div>
         </section>
 
-            <!--Titolo iniziale-->
-            <article class="row" id="Title">
-               <header class="col-md-12 col-xs-12">
-                <h1 class="animate__animated animate__bounceInLeft">Ciao,<br/>io sono Niky079</h1>
+         <!--Titolo iniziale-->
+           <article class="row" id="Title">
+                <header class="col-md-12 col-xs-12">
+                    <h1 class="animate__animated animate__bounceInLeft">Ciao,<br/>io sono Niky079</h1>
                 </header>
             </article>
 
-            <!--Video-->
+        <!--Video-->
             <section class="row" id="video">
                 <article class="col-md-12 col-xs-12">
                     <h2 class="animate__animated animate__slideInLeft">Guarda il mio TRAILER!</h2>
@@ -65,8 +84,8 @@
             <!--Credits & CopyRight-->
             <section class="row" id="Finale">
                 <footer class="col-md-12 col-xs-12">
-                    <p>© 2023 Tutti i diritti riservati a Niky079 </p>
-                    <a href="https://www.freepik.com/free-vector/black-white-grunge-paint-background_20969267.htm#query=black%20white%20background&position=3&from_view=keyword&track=robertav1_2_sidr">Image by vector_corp on Freepik</a>
+                    <p>©2023 Tutti i diritti riservati a Niky079 </p>
+                    <a  id="FInale" href="https://www.freepik.com/free-vector/black-white-grunge-paint-background_20969267.htm#query=black%20white%20background&position=3&from_view=keyword&track=robertav1_2_sidr">Image by vector_corp on Freepik</a>
                 </footer>
             </section>
 
