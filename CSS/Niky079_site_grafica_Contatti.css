@@ -79,7 +79,6 @@ body{
   #Title a{
     font-family: 'Lato', sans-serif;
     font-size: 30px;
-    color:red;
     margin-bottom: 0px;
     text-align: center;
   }
@@ -95,77 +94,30 @@ body{
     font-size: 30px;
   }
 
-  #TitleL header{
-    background-color: black;
-    border-radius: 25px;
-    margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    color: #FFFFFF;
-    height:400px;
-    margin-left:0px;
-  }
-
-  #TitleL header h1{
-    font-family: 'Lobster';
-    color: white;
-    font-size:50px;
-    text-align: center;
-    margin-bottom:2px;
-    margin-top:2px;
-  }
-
-  #TitleL header h1::selection {
-    color: white;opacity:0.0;
-  }
-
-  #TitleL p{
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    margin-bottom: 0px;
-    text-align: center;
-  }
-
-  #TitleL a{
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-    color:red;
-    margin-bottom: 0px;
-    text-align: center;
-  }
-
-  #TitleL ul{
-    list-style-type: none;
-    text-align: center;
-    margin-top: 20px;
-  }
-
-  #TitleL ul li{
-    font-family: 'Lato', sans-serif;
-    font-size: 30px;
-  }
-
-
-  #Instagram li{
+  #Instagram strong{
     color: #ff508a;
   }
 
-  #Telegram li{
+  #Telegram strong{
     color: #2AABEE;
   }
 
-  #YouTube li{
+  #YouTube strong{
     color: red;
   }
 
-  #Discord li{
+  #Discord strong{
     color: #5865F2;
   }
 
-  #Twitch li{
+  #Twitch strong{
     color: #9146FF;
   }
 
+  #Commercial a{
+    color: red
+  }
+  
   #Finale footer p {
     font-family: 'Kanit', sans-serif;
     font-size:20px;
